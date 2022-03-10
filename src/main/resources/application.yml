@@ -1,8 +1,8 @@
-spring:
+ spring:
   security:
     user:
-      name: admim
-      password: =1234
+      name: admin
+      password: 1234
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
