@@ -1,9 +1,7 @@
 package cybersoft.javabackend.java16girahuyphan.common.model;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Set;
 import java.util.UUID;
 
 import javax.persistence.GeneratedValue;
@@ -15,8 +13,6 @@ import org.hibernate.annotations.Type;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
 
-import cybersoft.javabackend.java16girahuyphan.role.model.GiraGroup;
-import cybersoft.javabackend.java16girahuyphan.role.model.GiraRole;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
