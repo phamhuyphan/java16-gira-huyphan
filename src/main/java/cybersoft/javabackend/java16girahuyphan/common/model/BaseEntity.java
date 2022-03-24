@@ -12,6 +12,8 @@ import javax.persistence.Version;
 import org.hibernate.annotations.Type;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.data.annotation.LastModifiedDate;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,11 +25,16 @@ import lombok.experimental.SuperBuilder;
 @NoArgsConstructor
 @SuperBuilder
 @MappedSuperclass
-public class BaseEntity  implements Serializable{
+public class BaseEntity implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@Id
 	@Type(type = "uuid-char")
 	@GeneratedValue
-	private UUID id;
+	protected UUID id;
 	
 	@Version
 	protected int version;
@@ -38,9 +45,9 @@ public class BaseEntity  implements Serializable{
 	@CreatedBy
 	protected String createdBy;
 	
-	@CreatedDate
+	@LastModifiedDate
 	protected LocalDateTime lastModifiedAt;
 	
-	@CreatedBy
+	@LastModifiedBy
 	protected String lastModifiedBy;
 }

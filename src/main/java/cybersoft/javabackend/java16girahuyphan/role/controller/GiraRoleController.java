@@ -19,29 +19,29 @@ import cybersoft.javabackend.java16girahuyphan.role.dto.GiraRoleDTO;
 import cybersoft.javabackend.java16girahuyphan.role.model.GiraRole;
 import cybersoft.javabackend.java16girahuyphan.role.service.GiraRoleService;
 
+
 @RestController
 @RequestMapping("roles")
 public class GiraRoleController {
-
 	@Autowired
 	private GiraRoleService service;
-
+	
 	@GetMapping
-	public Object findAllRole() {
+	public Object findAllRoles() {
 		List<GiraRole> roles = service.findAllEntity();
 		return new ResponseEntity<>(roles, HttpStatus.OK);
-
 	}
-
+	
 	@PostMapping
-	public Object createNewRole(@Valid @RequestBody GiraRoleDTO dto, BindingResult bindingResult) {
-		if (bindingResult.hasErrors()) {
-			return new ResponseEntity<>(
-					bindingResult.getAllErrors().stream().map(t -> t.getDefaultMessage()).collect(Collectors.toList()),
-					HttpStatus.BAD_REQUEST);
+	public Object createNewRole(@Valid @RequestBody GiraRoleDTO dto, 
+			BindingResult bindingResult) {
+		if(bindingResult.hasErrors()) {
+			return new ResponseEntity<>(bindingResult.getAllErrors()
+					.stream().map(t -> t.getDefaultMessage()).collect(Collectors.toList())
+					, HttpStatus.BAD_REQUEST);
 		}
+		
 		GiraRole role = service.save(dto);
 		return new ResponseEntity<>(role, HttpStatus.CREATED);
 	}
-
 }

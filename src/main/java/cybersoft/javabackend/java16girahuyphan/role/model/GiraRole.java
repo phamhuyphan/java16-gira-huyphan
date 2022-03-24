@@ -4,7 +4,6 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 import javax.persistence.Entity;
-
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
@@ -24,6 +23,11 @@ import lombok.experimental.SuperBuilder;
 @Table(name = "gira_role")
 public class GiraRole extends BaseEntity {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
 	@Size(min = 5,max = 5)
 	private String code;
 	
@@ -31,5 +35,6 @@ public class GiraRole extends BaseEntity {
 	private String description;
 	
 	@ManyToMany(mappedBy = "roles")
-	Set<GiraGroup> groups = new LinkedHashSet<GiraGroup>();
+	private Set<GiraGroup> groups = new LinkedHashSet<>();
+
 }

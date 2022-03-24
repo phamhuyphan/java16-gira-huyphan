@@ -10,16 +10,16 @@ import cybersoft.javabackend.java16girahuyphan.role.mapper.GiraRoleMapper;
 import cybersoft.javabackend.java16girahuyphan.role.model.GiraRole;
 import cybersoft.javabackend.java16girahuyphan.role.repository.GiraRoleRepository;
 
+
 @Service
 public class GiraRoleServiceImpl implements GiraRoleService {
-
 	@Autowired
 	private GiraRoleRepository repository;
 
 	@Override
 	public List<GiraRole> findAllEntity() {
-		return  repository.findAll();
-			}
+		return repository.findAll();
+	}
 
 	@Override
 	public GiraRole save(GiraRoleDTO dto) {
