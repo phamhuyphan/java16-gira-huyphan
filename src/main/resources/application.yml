@@ -15,3 +15,7 @@
   flyway:
     enabled: false
     driver-class-name: org.postgresql.Driver
+ logging:
+  level:
+    root: info
+    '[cybersoft.javabackend.java16girahuyphan]': debug

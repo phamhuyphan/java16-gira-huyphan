@@ -17,7 +17,9 @@ import org.springframework.web.bind.annotation.RestController;
 import cybersoft.javabackend.java16girahuyphan.common.util.ErrorHeplper;
 import cybersoft.javabackend.java16girahuyphan.role.dto.GiraGroupDTO;
 import cybersoft.javabackend.java16girahuyphan.role.service.GiraGroupService;
+import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequestMapping("groups")
 public class GiraGroupController {
@@ -27,9 +29,20 @@ public class GiraGroupController {
 	
 	@GetMapping
 	public Object findAllGroups() {
+<<<<<<< Updated upstream
 		List<GiraGroupDTO> groups = service.findAllDtoo();
 		
 		return new ResponseEntity<>(groups,HttpStatus.OK);
+=======
+		log.info("Find all gira group");
+		log.debug("Calling GiraGroupService.findAllDto");
+		
+		List<GiraGroupDTO> groups = service.findAllDto();
+		
+		log.debug("resufl:{}",groups);
+		log.info("Fall all gira groups Stopped");
+		return ResponseHelper.getResponse(groups, HttpStatus.OK);
+>>>>>>> Stashed changes
 	}
 	
 	@PostMapping
