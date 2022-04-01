@@ -23,8 +23,6 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-<<<<<<< Updated upstream
-=======
 			<artifactId>spring-boot-starter</artifactId>
 			<exclusions>
 				<exclusion>

@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.validation.BindingResult;
 
-public class ErrorHeplper {
+public class ErrorHelper {
 	public static List<String> getAllError(BindingResult result){
 		return result.getAllErrors()
 				.stream()
