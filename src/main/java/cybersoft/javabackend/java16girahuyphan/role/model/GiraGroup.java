@@ -25,17 +25,29 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @Entity
 @Table(name = "gira_group")
-public class GiraGroup extends BaseEntity{
-	
-	@Size(min = 5,max = 5)
+public class GiraGroup extends BaseEntity {
+
+	@Size(min = 5, max = 5)
 	private String code;
-	
+
 	@NotBlank
 	private String description;
-	
-	@ManyToMany(cascade = {CascadeType.MERGE,CascadeType.PERSIST})
-	@JoinTable(name = "gira_group_role",
-				joinColumns = @JoinColumn(name = "group_id"),
-				inverseJoinColumns = @JoinColumn(name = "role_id"))
+
+	@ManyToMany(cascade = { CascadeType.MERGE, CascadeType.PERSIST })
+	@JoinTable(name = "gira_group_role", joinColumns = @JoinColumn(name = "group_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
 	Set<GiraRole> roles = new LinkedHashSet<GiraRole>();
+
+	public void addRole(GiraRole role) {
+		roles.add(role);
+		role.getGroups().add(this);
+	}
+
+	public void removeRole(GiraRole role) {
+		roles.remove(role);
+		role.getGroups().remove(this);
+	}
+
+	public void clearRole() {
+		this.roles.clear();
+	}
 }

@@ -1,53 +1,44 @@
-21:10:23 [background-preinit] INFO    --- o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.2.Final
-21:10:23 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - Starting Java16GiraHuyphanApplication using Java 11.0.12 on LAPTOP-R9VHUM4B with PID 5492 (D:\BackEnd_JavaWeb_Cybersoft\Java_backend_cybersoft\java16-gira-huyphan\target\classes started by Phạm Huy Phần in D:\BackEnd_JavaWeb_Cybersoft\Java_backend_cybersoft\java16-gira-huyphan)
-21:10:23 [restartedMain] DEBUG   --- c.j.j.Java16GiraHuyphanApplication - Running with Spring Boot v2.5.10, Spring v5.3.16
-21:10:23 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - No active profile set, falling back to 1 default profile: "default"
-21:10:23 [restartedMain] DEBUG   --- o.s.b.SpringApplication - Loading source class cybersoft.javabackend.java16girahuyphan.Java16GiraHuyphanApplication
-21:10:23 [restartedMain] DEBUG   --- o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/D:/BackEnd_JavaWeb_Cybersoft/Java_backend_cybersoft/java16-gira-huyphan/target/classes/]
-21:10:23 [restartedMain] DEBUG   --- o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
-21:10:23 [restartedMain] DEBUG   --- o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
-21:10:23 [restartedMain] INFO    --- o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-21:10:23 [restartedMain] INFO    --- o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-21:10:23 [restartedMain] DEBUG   --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@23f82925
-21:10:24 [restartedMain] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-21:10:24 [restartedMain] DEBUG   --- o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'cybersoft.javabackend.java16girahuyphan'. Automatic @Repository and @Entity scanning is enabled.
-21:10:24 [restartedMain] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\Asus\.m2\repository\org\springframework\boot\spring-boot\2.5.10\spring-boot-2.5.10.jar
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\Asus\.m2\repository\org\springframework\boot\spring-boot\2.5.10\spring-boot-2.5.10.jar
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-21:10:25 [restartedMain] INFO    --- o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-21:10:25 [restartedMain] INFO    --- o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-21:10:25 [restartedMain] INFO    --- o.a.c.c.StandardService - Starting service [Tomcat]
-21:10:25 [restartedMain] INFO    --- o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
-21:10:25 [restartedMain] INFO    --- o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.s.c.ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-21:10:25 [restartedMain] INFO    --- o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1602 ms
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
-21:10:25 [restartedMain] DEBUG   --- o.s.b.a.m.w.s.WebMvcMetricsFilter - Filter 'webMvcMetricsFilter' configured for use
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedRequestContextFilter - Filter 'requestContextFilter' configured for use
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
-21:10:25 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedFormContentFilter - Filter 'formContentFilter' configured for use
-21:10:25 [restartedMain] INFO    --- o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-21:10:25 [restartedMain] INFO    --- o.h.Version - HHH000412: Hibernate ORM core version 5.4.33
-21:10:25 [restartedMain] INFO    --- o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-21:10:25 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Starting...
-21:10:25 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Start completed.
-21:10:25 [restartedMain] INFO    --- o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-21:10:26 [restartedMain] INFO    --- o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-21:10:26 [restartedMain] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-21:10:27 [restartedMain] WARN    --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-21:10:27 [restartedMain] INFO    --- o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
-21:10:27 [restartedMain] INFO    --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-21:10:27 [restartedMain] DEBUG   --- o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
-21:10:27 [restartedMain] DEBUG   --- o.s.b.d.l.LiveReloadServer - Starting live reload server on port 35729
-21:10:27 [restartedMain] INFO    --- o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-21:10:27 [restartedMain] INFO    --- o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-21:10:27 [restartedMain] INFO    --- o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-21:10:27 [restartedMain] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-21:10:27 [restartedMain] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-21:10:27 [restartedMain] INFO    --- s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-21:10:27 [restartedMain] DEBUG   --- o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+20:53:49 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - Starting Java16GiraHuyphanApplication using Java 11.0.12 on LAPTOP-R9VHUM4B with PID 4168 (D:\BackEnd_JavaWeb_Cybersoft\Java_backend_cybersoft\java16-gira-huyphan\target\classes started by Phạm Huy Phần in D:\BackEnd_JavaWeb_Cybersoft\Java_backend_cybersoft\java16-gira-huyphan)
+20:53:49 [restartedMain] DEBUG   --- c.j.j.Java16GiraHuyphanApplication - Running with Spring Boot v2.5.10, Spring v5.3.16
+20:53:49 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - No active profile set, falling back to 1 default profile: "default"
+20:53:49 [restartedMain] DEBUG   --- o.s.b.SpringApplication - Loading source class cybersoft.javabackend.java16girahuyphan.Java16GiraHuyphanApplication
+20:53:49 [restartedMain] DEBUG   --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2bccee2c
+20:53:50 [restartedMain] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:53:50 [restartedMain] DEBUG   --- o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'cybersoft.javabackend.java16girahuyphan'. Automatic @Repository and @Entity scanning is enabled.
+20:53:50 [restartedMain] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 2 JPA repository interfaces.
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\Asus\.m2\repository\org\springframework\boot\spring-boot\2.5.10\spring-boot-2.5.10.jar
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\Asus\.m2\repository\org\springframework\boot\spring-boot\2.5.10\spring-boot-2.5.10.jar
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+20:53:50 [restartedMain] INFO    --- o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+20:53:50 [restartedMain] INFO    --- o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:53:50 [restartedMain] INFO    --- o.a.c.c.StandardService - Starting service [Tomcat]
+20:53:50 [restartedMain] INFO    --- o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+20:53:50 [restartedMain] INFO    --- o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.s.c.ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+20:53:50 [restartedMain] INFO    --- o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 395 ms
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+20:53:50 [restartedMain] DEBUG   --- o.s.b.a.m.w.s.WebMvcMetricsFilter - Filter 'webMvcMetricsFilter' configured for use
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedRequestContextFilter - Filter 'requestContextFilter' configured for use
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+20:53:50 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedFormContentFilter - Filter 'formContentFilter' configured for use
+20:53:50 [restartedMain] INFO    --- o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:53:50 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-8 - Starting...
+20:53:50 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-8 - Start completed.
+20:53:50 [restartedMain] INFO    --- o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+20:53:50 [restartedMain] INFO    --- o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+20:53:50 [restartedMain] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:53:50 [restartedMain] WARN    --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+20:53:50 [restartedMain] INFO    --- o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+20:53:50 [restartedMain] INFO    --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+20:53:50 [restartedMain] DEBUG   --- o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application Admin MBean registered with name 'org.springframework.boot:type=Admin,name=SpringApplication'
+20:53:50 [restartedMain] INFO    --- o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+20:53:50 [restartedMain] INFO    --- o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:53:50 [restartedMain] INFO    --- o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+20:53:50 [restartedMain] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+20:53:50 [restartedMain] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+20:53:50 [restartedMain] INFO    --- s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+20:53:50 [restartedMain] DEBUG   --- o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 
 ============================
@@ -1770,12 +1761,25 @@ Unconditional classes:
 
 
 
-21:10:27 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - Started Java16GiraHuyphanApplication in 4.579 seconds (JVM running for 5.511)
-21:10:27 [restartedMain] DEBUG   --- o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
-21:10:27 [restartedMain] DEBUG   --- o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
-21:10:27 [restartedMain] DEBUG   --- o.s.b.d.r.Restarter - Immediately restarting application
-21:10:27 [restartedMain] DEBUG   --- o.s.b.d.r.Restarter - Starting application cybersoft.javabackend.java16girahuyphan.Java16GiraHuyphanApplication with URLs [file:/D:/BackEnd_JavaWeb_Cybersoft/Java_backend_cybersoft/java16-gira-huyphan/target/classes/]
-21:10:27 [restartedMain] DEBUG   --- o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-21:10:44 [http-nio-8080-exec-1] INFO    --- o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-21:10:44 [http-nio-8080-exec-1] INFO    --- o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-21:10:44 [http-nio-8080-exec-1] INFO    --- o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+20:53:50 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - Started Java16GiraHuyphanApplication in 0.981 seconds (JVM running for 3174.601)
+20:53:50 [restartedMain] DEBUG   --- o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+20:53:50 [restartedMain] INFO    --- o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+20:53:50 [restartedMain] DEBUG   --- o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] INFO    --- o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2bccee2c, started on Thu Mar 24 20:53:49 ICT 2022
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Beans' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Caches' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Health' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Info' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Conditions' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Configprops' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Env' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Loggers' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Threaddump' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Metrics' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Scheduledtasks' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] DEBUG   --- o.s.b.a.e.j.JmxEndpointExporter - Unregister endpoint with ObjectName 'org.springframework.boot:type=Endpoint,name=Mappings' from the JMX domain
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] INFO    --- c.z.h.HikariDataSource - HikariPool-8 - Shutdown initiated...
+21:27:48 [RMI TCP Connection(90)-127.0.0.1] INFO    --- c.z.h.HikariDataSource - HikariPool-8 - Shutdown completed.
