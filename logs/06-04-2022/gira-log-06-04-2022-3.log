@@ -1,27 +1,55 @@
-19:32:34 [background-preinit] INFO    --- o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.2.Final
-19:32:34 [main] INFO    --- c.j.j.s.j.JwtHeplperTest - Starting JwtHeplperTest using Java 11.0.12 on LAPTOP-R9VHUM4B with PID 22748 (started by Phạm Huy Phần in D:\BackEnd_JavaWeb_Cybersoft\Java_backend_cybersoft\java16-gira-huyphan)
-19:32:34 [main] DEBUG   --- c.j.j.s.j.JwtHeplperTest - Running with Spring Boot v2.5.10, Spring v5.3.16
-19:32:34 [main] INFO    --- c.j.j.s.j.JwtHeplperTest - No active profile set, falling back to 1 default profile: "default"
-19:32:34 [main] DEBUG   --- o.s.b.SpringApplication - Loading source class cybersoft.javabackend.java16girahuyphan.Java16GiraHuyphanApplication
-19:32:36 [main] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-19:32:36 [main] DEBUG   --- o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'cybersoft.javabackend.java16girahuyphan'. Automatic @Repository and @Entity scanning is enabled.
-19:32:36 [main] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
-19:32:36 [main] INFO    --- o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-19:32:36 [main] INFO    --- o.h.Version - HHH000412: Hibernate ORM core version 5.4.33
-19:32:36 [main] INFO    --- o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-19:32:37 [main] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Starting...
-19:32:37 [main] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Start completed.
-19:32:37 [main] INFO    --- o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
-19:32:38 [main] INFO    --- o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-19:32:38 [main] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-19:32:38 [main] WARN    --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-19:32:39 [main] INFO    --- o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
-19:32:39 [main] INFO    --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-19:32:40 [main] INFO    --- o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/api/v1/**']
-19:32:40 [main] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-19:32:40 [main] INFO    --- s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-19:32:40 [main] INFO    --- s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-19:32:41 [main] DEBUG   --- o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+18:17:43 [background-preinit] INFO    --- o.h.v.i.u.Version - HV000001: Hibernate Validator 6.2.2.Final
+18:17:43 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - Starting Java16GiraHuyphanApplication using Java 11.0.12 on LAPTOP-R9VHUM4B with PID 22572 (D:\BackEnd_JavaWeb_Cybersoft\Java_backend_cybersoft\java16-gira-huyphan\target\classes started by Phạm Huy Phần in D:\BackEnd_JavaWeb_Cybersoft\Java_backend_cybersoft\java16-gira-huyphan)
+18:17:43 [restartedMain] DEBUG   --- c.j.j.Java16GiraHuyphanApplication - Running with Spring Boot v2.5.10, Spring v5.3.16
+18:17:43 [restartedMain] INFO    --- c.j.j.Java16GiraHuyphanApplication - No active profile set, falling back to 1 default profile: "default"
+18:17:43 [restartedMain] DEBUG   --- o.s.b.SpringApplication - Loading source class cybersoft.javabackend.java16girahuyphan.Java16GiraHuyphanApplication
+18:17:43 [restartedMain] DEBUG   --- o.s.b.d.r.ChangeableUrls - Matching URLs for reloading : [file:/D:/BackEnd_JavaWeb_Cybersoft/Java_backend_cybersoft/java16-gira-huyphan/target/classes/]
+18:17:43 [restartedMain] DEBUG   --- o.s.b.d.s.DevToolsSettings - Included patterns for restart : []
+18:17:43 [restartedMain] DEBUG   --- o.s.b.d.s.DevToolsSettings - Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
+18:17:43 [restartedMain] INFO    --- o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+18:17:43 [restartedMain] INFO    --- o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+18:17:43 [restartedMain] DEBUG   --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b7a0a9b
+18:17:44 [restartedMain] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:17:44 [restartedMain] DEBUG   --- o.s.b.a.AutoConfigurationPackages - @EnableAutoConfiguration was declared on a class in the package 'cybersoft.javabackend.java16girahuyphan'. Automatic @Repository and @Entity scanning is enabled.
+18:17:44 [restartedMain] INFO    --- o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 3 JPA repository interfaces.
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\Asus\.m2\repository\org\springframework\boot\spring-boot\2.5.10\spring-boot-2.5.10.jar
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - Code archive: C:\Users\Asus\.m2\repository\org\springframework\boot\spring-boot\2.5.10\spring-boot-2.5.10.jar
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.e.t.TomcatServletWebServerFactory - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+18:17:44 [restartedMain] INFO    --- o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:17:44 [restartedMain] INFO    --- o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:17:44 [restartedMain] INFO    --- o.a.c.c.StandardService - Starting service [Tomcat]
+18:17:44 [restartedMain] INFO    --- o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+18:17:44 [restartedMain] INFO    --- o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.s.c.ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+18:17:44 [restartedMain] INFO    --- o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1568 ms
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.s.ServletContextInitializerBeans - Mapping filters: filterRegistrationBean urls=[/*] order=-2147483647, springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.s.ServletContextInitializerBeans - Mapping servlets: dispatcherServlet urls=[/]
+18:17:44 [restartedMain] DEBUG   --- o.s.b.a.m.w.s.WebMvcMetricsFilter - Filter 'webMvcMetricsFilter' configured for use
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedRequestContextFilter - Filter 'requestContextFilter' configured for use
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedCharacterEncodingFilter - Filter 'characterEncodingFilter' configured for use
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.s.DelegatingFilterProxyRegistrationBean$1 - Filter 'springSecurityFilterChain' configured for use
+18:17:44 [restartedMain] DEBUG   --- o.s.b.w.s.f.OrderedFormContentFilter - Filter 'formContentFilter' configured for use
+18:17:45 [restartedMain] INFO    --- o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:17:45 [restartedMain] INFO    --- o.h.Version - HHH000412: Hibernate ORM core version 5.4.33
+18:17:45 [restartedMain] INFO    --- o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+18:17:45 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Starting...
+18:17:45 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+18:17:45 [restartedMain] INFO    --- o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+18:17:46 [restartedMain] INFO    --- o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+18:17:46 [restartedMain] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:17:46 [restartedMain] WARN    --- o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+18:17:46 [restartedMain] INFO    --- o.s.b.a.e.w.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+18:17:46 [restartedMain] INFO    --- s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18:17:47 [restartedMain] INFO    --- o.s.s.w.DefaultSecurityFilterChain - Will not secure Ant [pattern='/api/v1/**']
+18:17:47 [restartedMain] WARN    --- o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManagerBean' defined in class path resource [cybersoft/javabackend/java16girahuyphan/security/config/SecurityConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManagerBean' threw exception; nested exception is org.springframework.beans.FatalBeanException: A dependency cycle was detected when trying to resolve the AuthenticationManager. Please ensure you have configured authentication.
+18:17:47 [restartedMain] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:17:47 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:17:47 [restartedMain] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:17:47 [restartedMain] INFO    --- o.a.c.c.StandardService - Stopping service [Tomcat]
+18:17:47 [restartedMain] DEBUG   --- o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
+18:17:47 [restartedMain] DEBUG   --- o.s.b.d.r.Restarter - Immediately restarting application
+18:17:47 [restartedMain] DEBUG   --- o.s.b.d.r.Restarter - Starting application cybersoft.javabackend.java16girahuyphan.Java16GiraHuyphanApplication with URLs [file:/D:/BackEnd_JavaWeb_Cybersoft/Java_backend_cybersoft/java16-gira-huyphan/target/classes/]
+18:17:47 [restartedMain] DEBUG   --- o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 
 ============================
@@ -41,11 +69,45 @@ Positive matches:
    AopAutoConfiguration.AspectJAutoProxyingConfiguration.CglibAutoProxyConfiguration matched:
       - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
 
+   AuditEventsEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.auditevents.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   BeansEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.beans.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   BeansEndpointAutoConfiguration#beansEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.beans.BeansEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
    CacheMeterBinderProvidersConfiguration matched:
       - @ConditionalOnClass found required class 'io.micrometer.core.instrument.binder.MeterBinder' (OnClassCondition)
 
+   CachesEndpointAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.caches.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   CachesEndpointAutoConfiguration#cachesEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.cache.CachesEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   CachesEndpointAutoConfiguration#cachesEndpointWebExtension matched:
+      - @ConditionalOnBean (types: org.springframework.boot.actuate.cache.CachesEndpoint; SearchStrategy: all) found bean 'cachesEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.cache.CachesEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
    CompositeMeterRegistryAutoConfiguration matched:
       - @ConditionalOnClass found required class 'io.micrometer.core.instrument.composite.CompositeMeterRegistry' (OnClassCondition)
+
+   ConditionsReportEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.conditions.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   ConditionsReportEndpointAutoConfiguration#conditionsReportEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.autoconfigure.condition.ConditionsReportEndpoint; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   ConfigurationPropertiesReportEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.configprops.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   ConfigurationPropertiesReportEndpointAutoConfiguration#configurationPropertiesReportEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ConfigurationPropertiesReportEndpointAutoConfiguration#configurationPropertiesReportEndpointWebExtension matched:
+      - @ConditionalOnBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpoint; SearchStrategy: all) found bean 'configurationPropertiesReportEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.context.properties.ConfigurationPropertiesReportEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
    DataSourceAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
@@ -72,6 +134,13 @@ Positive matches:
       - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
       - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
+   DataSourceJmxConfiguration matched:
+      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
+
+   DataSourceJmxConfiguration.Hikari matched:
+      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
+      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
    DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration matched:
       - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
 
@@ -90,6 +159,14 @@ Positive matches:
 
    DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration matched:
       - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a primary bean from beans 'dataSource' (OnBeanCondition)
+
+   DevToolsDataSourceAutoConfiguration matched:
+      - Devtools devtools enabled. (OnEnabledDevToolsCondition)
+      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
+
+   DevToolsDataSourceAutoConfiguration.DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor matched:
+      - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.orm.jpa.AbstractEntityManagerFactoryBean; SearchStrategy: all) found bean '&entityManagerFactory' (OnBeanCondition)
 
    DiskSpaceHealthContributorAutoConfiguration matched:
       - @ConditionalOnEnabledHealthIndicator management.health.defaults.enabled is considered true (OnEnabledHealthIndicatorCondition)
@@ -124,6 +201,15 @@ Positive matches:
    EndpointAutoConfiguration#endpointOperationParameterMapper matched:
       - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.invoke.ParameterValueMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
+   EnvironmentEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.env.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   EnvironmentEndpointAutoConfiguration#environmentEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.env.EnvironmentEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   EnvironmentEndpointAutoConfiguration#environmentEndpointWebExtension matched:
+      - @ConditionalOnBean (types: org.springframework.boot.actuate.env.EnvironmentEndpoint; SearchStrategy: all) found bean 'environmentEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.env.EnvironmentEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
    ErrorMvcAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
       - found 'session' scope (OnWebApplicationCondition)
@@ -146,6 +232,10 @@ Positive matches:
 
    ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
       - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   FlywayEndpointAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.flyway.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
 
    GenericCacheConfiguration matched:
       - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
@@ -178,6 +268,12 @@ Positive matches:
    HealthEndpointWebExtensionConfiguration#healthEndpointWebExtension matched:
       - @ConditionalOnBean (types: org.springframework.boot.actuate.health.HealthEndpoint; SearchStrategy: all) found bean 'healthEndpoint'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.health.HealthEndpointWebExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
+   HeapDumpWebEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.heapdump.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   HeapDumpWebEndpointAutoConfiguration#heapDumpWebEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.management.HeapDumpWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
    HibernateJpaAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'javax.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor' (OnClassCondition)
 
@@ -209,8 +305,17 @@ Positive matches:
    HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched:
       - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
+   HttpTraceEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.httptrace.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
    InfoContributorAutoConfiguration#envInfoContributor matched:
       - @ConditionalOnEnabledInfoContributor management.info.defaults.enabled is considered true (OnEnabledInfoContributorCondition)
+
+   InfoEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.info.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   InfoEndpointAutoConfiguration#infoEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.info.InfoEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
    JacksonAutoConfiguration matched:
       - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
@@ -250,6 +355,31 @@ Positive matches:
 
    JdbcTemplateConfiguration matched:
       - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
+      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
+
+   JmxAutoConfiguration#mbeanExporter matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.MBeanExporter; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#mbeanServer matched:
+      - @ConditionalOnMissingBean (types: javax.management.MBeanServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxAutoConfiguration#objectNamingStrategy matched:
+      - @ConditionalOnMissingBean (types: org.springframework.jmx.export.naming.ObjectNamingStrategy; SearchStrategy: current) did not find any beans (OnBeanCondition)
+
+   JmxEndpointAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
+
+   JmxEndpointAutoConfiguration#endpointObjectNameFactory matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.jmx.EndpointObjectNameFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxEndpointAutoConfiguration#jmxAnnotationEndpointDiscoverer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.endpoint.jmx.JmxEndpointsSupplier; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   JmxEndpointAutoConfiguration#jmxMBeanExporter matched:
+      - @ConditionalOnSingleCandidate (types: javax.management.MBeanServer; SearchStrategy: all) found a primary bean from beans 'mbeanServer' (OnBeanCondition)
 
    JpaBaseConfiguration#entityManagerFactory matched:
       - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,javax.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
@@ -297,6 +427,27 @@ Positive matches:
    LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
       - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
 
+   LocalDevToolsAutoConfiguration matched:
+      - Initialized Restarter Condition available and initialized (OnInitializedRestarterCondition)
+
+   LocalDevToolsAutoConfiguration.LiveReloadConfiguration matched:
+      - @ConditionalOnProperty (spring.devtools.livereload.enabled) matched (OnPropertyCondition)
+
+   LocalDevToolsAutoConfiguration.LiveReloadConfiguration#liveReloadServer matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.livereload.LiveReloadServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration matched:
+      - @ConditionalOnProperty (spring.devtools.restart.enabled) matched (OnPropertyCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration#classPathFileSystemWatcher matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration#classPathRestartStrategy matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.classpath.ClassPathRestartStrategy; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   LocalDevToolsAutoConfiguration.RestartConfiguration#conditionEvaluationDeltaLoggingListener matched:
+      - @ConditionalOnProperty (spring.devtools.restart.log-condition-evaluation-delta) matched (OnPropertyCondition)
+
    Log4J2MetricsAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'io.micrometer.core.instrument.binder.logging.Log4j2Metrics', 'org.apache.logging.log4j.LogManager', 'org.apache.logging.log4j.core.LoggerContext' (OnClassCondition)
       - LoggerContext was an instance of org.apache.logging.log4j.core.LoggerContext (Log4J2MetricsAutoConfiguration.Log4JCoreLoggerContextCondition)
@@ -305,14 +456,41 @@ Positive matches:
    Log4J2MetricsAutoConfiguration#log4j2Metrics matched:
       - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.binder.logging.Log4j2Metrics; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
+   LogFileWebEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.logfile.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   LoggersEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.loggers.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   LoggersEndpointAutoConfiguration#loggersEndpoint matched:
+      - Logging System enabled (LoggersEndpointAutoConfiguration.OnEnabledLoggingSystemCondition)
+      - @ConditionalOnBean (types: org.springframework.boot.logging.LoggingSystem; SearchStrategy: all) found bean 'springBootLoggingSystem'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LoggersEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
    ManagementContextAutoConfiguration.SameManagementContextConfiguration matched:
       - Management Port actual port type (SAME) matched required type (OnManagementPortCondition)
+
+   MappingsEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.mappings.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   MappingsEndpointAutoConfiguration.ServletWebConfiguration matched:
+      - found 'session' scope (OnWebApplicationCondition)
+
+   MappingsEndpointAutoConfiguration.ServletWebConfiguration.SpringMvcConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
 
    MetricsAutoConfiguration matched:
       - @ConditionalOnClass found required class 'io.micrometer.core.annotation.Timed' (OnClassCondition)
 
    MetricsAutoConfiguration#micrometerClock matched:
       - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.Clock; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   MetricsEndpointAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'io.micrometer.core.annotation.Timed' (OnClassCondition)
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.metrics.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   MetricsEndpointAutoConfiguration#metricsEndpoint matched:
+      - @ConditionalOnBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found bean 'simpleMeterRegistry'; @ConditionalOnMissingBean (types: org.springframework.boot.actuate.metrics.MetricsEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
    MultipartAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'javax.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'javax.servlet.MultipartConfigElement' (OnClassCondition)
@@ -368,6 +546,12 @@ Positive matches:
    RestTemplateMetricsConfiguration#restTemplateExchangeTagsProvider matched:
       - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.metrics.web.client.RestTemplateExchangeTagsProvider; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
+   ScheduledTasksEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.scheduledtasks.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   ScheduledTasksEndpointAutoConfiguration#scheduledTasksEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.scheduling.ScheduledTasksEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
    SecurityAutoConfiguration matched:
       - @ConditionalOnClass found required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
 
@@ -418,11 +602,17 @@ Positive matches:
       - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
 
    SimpleMetricsExportAutoConfiguration matched:
-      - @ConditionalOnEnabledMetricsExport management.metrics.export.simple.enabled is true (OnMetricsExportEnabledCondition)
+      - @ConditionalOnEnabledMetricsExport management.metrics.export.defaults.enabled is considered true (OnMetricsExportEnabledCondition)
       - @ConditionalOnBean (types: io.micrometer.core.instrument.Clock; SearchStrategy: all) found bean 'micrometerClock'; @ConditionalOnMissingBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
    SimpleMetricsExportAutoConfiguration#simpleConfig matched:
       - @ConditionalOnMissingBean (types: io.micrometer.core.instrument.simple.SimpleConfig; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration matched:
+      - @ConditionalOnProperty (spring.application.admin.enabled=true) matched (OnPropertyCondition)
+
+   SpringApplicationAdminJmxAutoConfiguration#springApplicationAdminRegistrar matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
    SpringDataWebAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
@@ -470,6 +660,12 @@ Positive matches:
 
    TaskSchedulingAutoConfiguration#taskSchedulerBuilder matched:
       - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   ThreadDumpEndpointAutoConfiguration matched:
+      - @ConditionalOnAvailableEndpoint no property management.endpoint.threaddump.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint marked as exposed by a 'management.endpoints.jmx.exposure' property (OnAvailableEndpointCondition)
+
+   ThreadDumpEndpointAutoConfiguration#dumpEndpoint matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.management.ThreadDumpEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
 
    TomcatMetricsAutoConfiguration matched:
       - @ConditionalOnClass found required classes 'io.micrometer.core.instrument.binder.tomcat.TomcatMetrics', 'org.apache.catalina.Manager' (OnClassCondition)
@@ -618,9 +814,9 @@ Negative matches:
       Matched:
          - @ConditionalOnProperty (management.auditevents.enabled) matched (OnPropertyCondition)
 
-   AuditEventsEndpointAutoConfiguration:
+   AuditEventsEndpointAutoConfiguration#auditEventsEndpoint:
       Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.auditevents.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.audit.AuditEventRepository; SearchStrategy: all) did not find any beans of type org.springframework.boot.actuate.audit.AuditEventRepository (OnBeanCondition)
 
    AvailabilityHealthContributorAutoConfiguration#livenessStateHealthIndicator:
       Did not match:
@@ -637,10 +833,6 @@ Negative matches:
    BatchAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
-
-   BeansEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.beans.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
 
    CacheAutoConfiguration:
       Did not match:
@@ -677,12 +869,6 @@ Negative matches:
    CacheMetricsAutoConfiguration:
       Did not match:
          - @ConditionalOnBean (types: org.springframework.cache.CacheManager; SearchStrategy: all) did not find any beans of type org.springframework.cache.CacheManager (OnBeanCondition)
-
-   CachesEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.caches.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
 
    CaffeineCacheConfiguration:
       Did not match:
@@ -735,14 +921,6 @@ Negative matches:
    CompositeMeterRegistryConfiguration:
       Did not match:
          - NoneNestedConditions 1 matched 1 did not; NestedCondition on CompositeMeterRegistryConfiguration.MultipleNonPrimaryMeterRegistriesCondition.SingleInjectableMeterRegistry @ConditionalOnSingleCandidate (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found a primary bean from beans 'simpleMeterRegistry'; NestedCondition on CompositeMeterRegistryConfiguration.MultipleNonPrimaryMeterRegistriesCondition.NoMeterRegistryCondition @ConditionalOnMissingBean (types: io.micrometer.core.instrument.MeterRegistry; SearchStrategy: all) found beans of type 'io.micrometer.core.instrument.MeterRegistry' simpleMeterRegistry (CompositeMeterRegistryConfiguration.MultipleNonPrimaryMeterRegistriesCondition)
-
-   ConditionsReportEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.conditions.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-
-   ConfigurationPropertiesReportEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.configprops.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
 
    ConnectionFactoryHealthContributorAutoConfiguration:
       Did not match:
@@ -812,9 +990,9 @@ Negative matches:
       Did not match:
          - DataSource Initialization did not find configured properties spring.datasource.data-username, spring.datasource.schema-password, spring.datasource.schema[0], spring.datasource.data[0], spring.datasource.data, spring.datasource.schema-username, spring.datasource.data-password, spring.datasource.initialization-mode, spring.datasource.schema, spring.datasource.sql-script-encoding, spring.datasource.separator, spring.datasource.platform, spring.datasource.continue-on-error (DataSourceInitializationConfiguration.SharedCredentialsDataSourceInitializationConfiguration.DataSourceInitializationCondition)
 
-   DataSourceJmxConfiguration:
+   DataSourceJmxConfiguration.TomcatDataSourceJmxConfiguration:
       Did not match:
-         - @ConditionalOnProperty (spring.jmx.enabled=true) found different value in property 'enabled' (OnPropertyCondition)
+         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSourceProxy' (OnClassCondition)
 
    DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
       Did not match:
@@ -835,10 +1013,6 @@ Negative matches:
    DatadogMetricsExportAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'io.micrometer.datadog.DatadogMeterRegistry' (OnClassCondition)
-
-   DevToolsDataSourceAutoConfiguration:
-      Did not match:
-         - Devtools devtools is disabled for current context. (OnEnabledDevToolsCondition)
 
    DevToolsR2dbcAutoConfiguration:
       Did not match:
@@ -900,10 +1074,6 @@ Negative matches:
       Did not match:
          - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
 
-   EnvironmentEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.env.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-
    ErrorWebFluxAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
@@ -914,11 +1084,9 @@ Negative matches:
       Matched:
          - @ConditionalOnClass found required class 'org.flywaydb.core.Flyway' (OnClassCondition)
 
-   FlywayEndpointAutoConfiguration:
+   FlywayEndpointAutoConfiguration#flywayEndpoint:
       Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.flyway.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.flywaydb.core.Flyway' (OnClassCondition)
+         - @ConditionalOnBean (types: org.flywaydb.core.Flyway; SearchStrategy: all) did not find any beans of type org.flywaydb.core.Flyway (OnBeanCondition)
 
    FreeMarkerAutoConfiguration:
       Did not match:
@@ -968,10 +1136,6 @@ Negative matches:
       Did not match:
          - did not find reactive web application classes (OnWebApplicationCondition)
 
-   HeapDumpWebEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.heapdump.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-
    HibernateMetricsAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'org.hibernate.stat.HibernateMetrics' (OnClassCondition)
@@ -998,9 +1162,9 @@ Negative matches:
       Matched:
          - found 'session' scope (OnWebApplicationCondition)
 
-   HttpTraceEndpointAutoConfiguration:
+   HttpTraceEndpointAutoConfiguration#httpTraceEndpoint:
       Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.httptrace.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
+         - @ConditionalOnBean (types: org.springframework.boot.actuate.trace.http.HttpTraceRepository; SearchStrategy: all) did not find any beans of type org.springframework.boot.actuate.trace.http.HttpTraceRepository (OnBeanCondition)
 
    HumioMetricsExportAutoConfiguration:
       Did not match:
@@ -1037,10 +1201,6 @@ Negative matches:
          - @ConditionalOnSingleCandidate (types: org.springframework.boot.info.GitProperties; SearchStrategy: all) did not find any beans (OnBeanCondition)
       Matched:
          - @ConditionalOnEnabledInfoContributor management.info.defaults.enabled is considered true (OnEnabledInfoContributorCondition)
-
-   InfoEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.info.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
 
    IntegrationAutoConfiguration:
       Did not match:
@@ -1089,16 +1249,6 @@ Negative matches:
    JmsHealthContributorAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'javax.jms.ConnectionFactory' (OnClassCondition)
-
-   JmxAutoConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.jmx.enabled=true) found different value in property 'enabled' (OnPropertyCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
-
-   JmxEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.jmx.enabled=true) found different value in property 'enabled' (OnPropertyCondition)
 
    JmxMetricsExportAutoConfiguration:
       Did not match:
@@ -1172,21 +1322,13 @@ Negative matches:
       Did not match:
          - @ConditionalOnClass did not find required class 'liquibase.integration.spring.SpringLiquibase' (OnClassCondition)
 
-   LocalDevToolsAutoConfiguration:
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint:
       Did not match:
-         - Initialized Restarter Condition initialized without URLs (OnInitializedRestarterCondition)
-
-   LogFileWebEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.logfile.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
+         - Log File did not find logging file (LogFileWebEndpointAutoConfiguration.LogFileCondition)
 
    LogbackMetricsAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'ch.qos.logback.classic.LoggerContext' (OnClassCondition)
-
-   LoggersEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.loggers.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
 
    MailHealthContributorAutoConfiguration:
       Did not match:
@@ -1210,19 +1352,13 @@ Negative matches:
       Matched:
          - found 'session' scope (OnWebApplicationCondition)
 
-   MappingsEndpointAutoConfiguration:
+   MappingsEndpointAutoConfiguration.ReactiveWebConfiguration:
       Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.mappings.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
+         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.DispatcherHandler' (OnClassCondition)
 
    MessageSourceAutoConfiguration:
       Did not match:
          - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
-
-   MetricsEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.metrics.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'io.micrometer.core.annotation.Timed' (OnClassCondition)
 
    MongoAutoConfiguration:
       Did not match:
@@ -1464,10 +1600,6 @@ Negative matches:
       Did not match:
          - @ConditionalOnClass did not find required class 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (OnClassCondition)
 
-   ScheduledTasksEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.scheduledtasks.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-
    SecurityDataConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'org.springframework.security.data.repository.query.SecurityEvaluationContextExtension' (OnClassCondition)
@@ -1524,10 +1656,6 @@ Negative matches:
       Did not match:
          - @ConditionalOnClass did not find required class 'org.apache.solr.client.solrj.SolrClient' (OnClassCondition)
 
-   SpringApplicationAdminJmxAutoConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.application.admin.enabled=true) did not find property 'enabled' (OnPropertyCondition)
-
    SpringBootWebSecurityConfiguration:
       Did not match:
          - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter,org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter' securityConfig; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
@@ -1550,10 +1678,6 @@ Negative matches:
       Did not match:
          - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
 
-   ThreadDumpEndpointAutoConfiguration:
-      Did not match:
-         - @ConditionalOnAvailableEndpoint no property management.endpoint.threaddump.enabled found so using endpoint default; @ConditionalOnAvailableEndpoint no 'management.endpoints' property marked it as exposed (OnAvailableEndpointCondition)
-
    ThymeleafAutoConfiguration:
       Did not match:
          - @ConditionalOnClass did not find required class 'org.thymeleaf.spring5.SpringTemplateEngine' (OnClassCondition)
@@ -1568,7 +1692,7 @@ Negative matches:
 
    UserDetailsServiceAutoConfiguration:
       Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManagerBean and found beans of type 'org.springframework.security.core.userdetails.UserDetailsService' userDetailsServiceImpl (OnBeanCondition)
+         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationManagerBean (OnBeanCondition)
       Matched:
          - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
 
@@ -1687,10 +1811,51 @@ Unconditional classes:
 
 
 
-19:32:41 [main] INFO    --- c.j.j.s.j.JwtHeplperTest - Started JwtHeplperTest in 6.638 seconds (JVM running for 7.959)
-19:32:41 [main] DEBUG   --- o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
-19:32:41 [main] DEBUG   --- o.s.b.d.r.Restarter - Creating new Restarter for thread Thread[main,5,main]
-19:32:41 [main] DEBUG   --- o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
-19:32:41 [SpringApplicationShutdownHook] INFO    --- o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-19:32:41 [SpringApplicationShutdownHook] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
-19:32:41 [SpringApplicationShutdownHook] INFO    --- c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:17:47 [restartedMain] ERROR   --- o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationManagerBean' defined in class path resource [cybersoft/javabackend/java16girahuyphan/security/config/SecurityConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManagerBean' threw exception; nested exception is org.springframework.beans.FatalBeanException: A dependency cycle was detected when trying to resolve the AuthenticationManager. Please ensure you have configured authentication.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.10.jar:2.5.10]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.5.10.jar:2.5.10]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:448) [spring-boot-2.5.10.jar:2.5.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) [spring-boot-2.5.10.jar:2.5.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) [spring-boot-2.5.10.jar:2.5.10]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.10.jar:2.5.10]
+	at cybersoft.javabackend.java16girahuyphan.Java16GiraHuyphanApplication.main(Java16GiraHuyphanApplication.java:10) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.10.jar:2.5.10]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.AuthenticationManager]: Factory method 'authenticationManagerBean' threw exception; nested exception is org.springframework.beans.FatalBeanException: A dependency cycle was detected when trying to resolve the AuthenticationManager. Please ensure you have configured authentication.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 24 more
+Caused by: org.springframework.beans.FatalBeanException: A dependency cycle was detected when trying to resolve the AuthenticationManager. Please ensure you have configured authentication.
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.validateBeanCycle(WebSecurityConfigurerAdapter.java:537) ~[spring-security-config-5.5.5.jar:5.5.5]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.<init>(WebSecurityConfigurerAdapter.java:503) ~[spring-security-config-5.5.5.jar:5.5.5]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.authenticationManagerBean(WebSecurityConfigurerAdapter.java:251) ~[spring-security-config-5.5.5.jar:5.5.5]
+	at cybersoft.javabackend.java16girahuyphan.security.config.SecurityConfig.authenticationManagerBean(SecurityConfig.java:27) ~[classes/:?]
+	at cybersoft.javabackend.java16girahuyphan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$7960f52a.CGLIB$authenticationManagerBean$3(<generated>) ~[classes/:?]
+	at cybersoft.javabackend.java16girahuyphan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$7960f52a$$FastClassBySpringCGLIB$$c2ef81d7.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.3.16.jar:5.3.16]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331) ~[spring-context-5.3.16.jar:5.3.16]
+	at cybersoft.javabackend.java16girahuyphan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$7960f52a.authenticationManagerBean(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 24 more
