@@ -13,11 +13,11 @@ import lombok.Setter;
 @Getter
 public class GiraGroupDTO {
 	
-	private UUID id;
+private UUID id; 
 	
-	@Size(min = 5,max = 5,message = "Group Code must be 5 characters.")
+	@Size(min = 5, max = 36, message = "{group.code.size}")
 	private String code;
 	
-	@NotBlank(message = "Description must be not blank.")
+	@NotBlank(message = "{group.description.notblank}")
 	private String description;
 }
